@@ -60,7 +60,7 @@ def chat_with_llama():
             model="llama-3.1-70b-versatile",  # Adjust this as needed
             messages=messages,
             temperature=0.7,
-            max_tokens=300,
+            max_tokens=1000,
         )
 
         # Check if response is valid and contains choices
